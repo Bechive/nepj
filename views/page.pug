@@ -6,5 +6,9 @@ html
     //- my scripts
     script(src="/public/script/page.js")
   body
+    include layouts/header
+
     h1 #{message}
     button(onclick="handle_click()") click
+
+    include layouts/footer
