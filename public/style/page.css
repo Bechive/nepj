@@ -8,6 +8,15 @@
   text-shadow: 1px 1px 1px #000, 3px 3px 5px grey;
 }
 
+.article {
+  width: 700px;
+  margin: 0 auto;
+  padding: 25px;
+  -webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.42);
+  -moz-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.42);
+  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.42);
+}
+
 .jumbotron {
     height: 250px;
     width: 100%;
